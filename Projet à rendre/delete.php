@@ -6,13 +6,13 @@ if($val ==true ){
   try {
     include('config.php');
     $test=$_SESSION['email'];
-    $sql="DELETE FROM user WHERE email='$test'";
+    $sql="DELETE FROM user WHERE mail='$test' mdp='$test'";
   
     // use exec() because no results are returned
     $conn->exec($sql);
     echo "Record deleted successfully".$test.$sql;
   } catch(PDOException $e) {
-    header("location:index.php");
+    header("location:index.html");
     echo $sql . "<br>" . $e->getMessage();
     
   }

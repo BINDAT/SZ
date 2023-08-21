@@ -1,13 +1,13 @@
 <?php
 include('config.php');
-$query= $conn->prepare("SELECT*FROM user WHERE email = ?");
-$query->execute([$_POST['email']]);
+$query= $conn->prepare("SELECT*FROM user WHERE Mail = ?");
+$query->execute([$_POST['Mail']]);
 $user=$query->fetch();
-if ($user &&($_POST['password']==$user['password']))
+if ($user &&($_POST['MDP']==$user['MDP']))
 
 {session_start();
-    $_SESSION['username']=$user['username'];
-    $_SESSION['email']=$user['email'];
+    $_SESSION['Pseudo']=$user['Pseudo'];
+    $_SESSION['Mail']=$user['Mail'];
     header("Location:index.html");
 }else{
     echo " Invalide";

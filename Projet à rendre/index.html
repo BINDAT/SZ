@@ -5,6 +5,7 @@
 <title>language</title>
 <link rel="icon"  type="image/X-Icon" href="rsc/IMG/language.ico"><!--Icon de l'onglet-->
 <link rel="stylesheet" type="text/css" href="CSS/Première page.css"><!--CSS unique-->
+<link rel="stylesheet" type="text/css" href="CSS/styleC.css"><!--CSS non unique-->
 </head>
     <!--affichage-->
     <body id="CT">
@@ -12,9 +13,13 @@
         <p>To begin, please select your language </p>
         <p>pour commencer veuillez choisir votre langue</p>
 <!--choix-->
-    <a href="blogfr.html">Français</a>
-    <a href="blogen.html">English</a>
-    <a href="https://github.com/BINDAT/SZ"><p>lien/link Github</p></a>
+    <button onclick="window.location.href='blogfr.html';">Francais<img src="rsc/IMG/pngegg(1).png" width="70" height="70"></button> 
+    <button onclick="window.location.href='blogfr.html';">English<img src="rsc/IMG/pngegg.png" width="70" height="70"></button> 
+    <p><button onclick="window.location.href='https://github.com/BINDAT/SZ';"><p>Mon lien/My link Github</p><img src="rsc/IMG/png-transparent-github-computer-icons-github-logo-monochrome-head.png" width="70" height="70"></button></p>
     <small><a href="https://www.deepl.com/translator">@translation by DeepL</a></small>
+    <p><button onclick="window.location.href='login.html';" id="log">Login</button><!--Passe sur une page de LogIn-->
+    <button  onclick="window.location.href='logout.php';" id="log">Logout</button>
+    <p><button id="log" onclick="window.location.href='memoryadd.html';">Create Account</button><!--Passe par une page html pour ajouter un compte-->
+    <button id="log" onclick="window.location.href='memoryless.html';">Delete Account</button></p><!--Passe par une page html pour supprimmer un compte-->
     </body>
 </html>
