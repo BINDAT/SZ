@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css"><!--Mon css appel-->
+        <link rel="stylesheet" type="text/css" href="exempleC.css"><!--Mon css appel pour colonne-->
+    </head>
+    <body>
+        <div container>
+        <div class="row">
+        <div class="col1">
+        <h1 id="blue" style="text-align:right;">WELCOME!</h1>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col1" style="text-align:left;">
+        <video controls width="250">
+        <source src="" type="video/webm"/>
+        </div>
+        <!--Ici le formulaire de connexion-->
+        <form style="text-align: right;" action="auth.php" method="post" name="login"><!--Action du formulaire ici la un login-->
+           <div><!--Bloc pour le username-->
+            <label for ="Username">Username</label><!--Nom du bloc visible et pour la base-->
+            <input type="text" name="Username" placeholder="Username"></input><!--Nom de l'input pour la base de donnée en simple text avec text visible-->
+           </div> 
+           <br><!--Saut de ligne pour separer les blocs-->
+           <div><!--Bloc Password-->
+            <label for="Password">Password</label><!--Nom du bloc visible-->
+            <input type="password" name="Password" placeholder="Password"></input><!--Nom de l'input pour la base de en text cacher par point-->
+           </div>
+           <br>
+           <div>
+            <input type="submit" value="LogIn"><!--Action pour le log-->
+            </div>
+         </form>
+         <br>
+         <input type="checkbox">Remember</input><!--Lien vers le MDP oublier-->
+         <a href="" id="blue" ><div style="text-align: right;">Forgot Password</div></a> 
+         </div>
+         <div>
+            No account ? Go to <a href="" id="blue">Sign Up</a><!--La le lien vers la crea de compte-->
+         </div>
+        </table>
+    </body>
+</html>

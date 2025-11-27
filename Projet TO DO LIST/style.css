@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(197, 159, 110);
+}
+body {
+    text-align: center;
+}
+div {
+    text-align: justify;
+}
+#del {
+    background-color: rgb(207, 93, 93);
+    color:red;
+}
+#edit {
+    background-color: rgb(214, 92, 47);
+    color:rgb(253, 136, 3)
+}
+#add {
+    background-color: rgb(4, 58, 4);
+    color:rgb(13, 211, 13)
+}
+

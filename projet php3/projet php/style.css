@@ -1,0 +1,9 @@
+#titre{text-align: center; color: rgb(115, 128, 0);}
+#bga {
+    background-image:url(/IMG/menthe-feuille.jpg);
+    background-repeat: no-repeat;
+}
+.mb-3{color:greenyellow;}
+#passwordHelp{color: rgb(206, 6, 6)}
+#emailHelp{color:rgb(216, 13, 47)}
+#bt{color:rgb(16, 206, 159);}

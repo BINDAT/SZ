@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <!--Font externe-->
+    <link href="https://fonts.googleapis.com/css?family=Tilillium+Web" rel="stylesheet" type="text/css">
+    <!--CSS RACINE-->
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contenu">
+        <div class="header">
+            <div class="reset">
+                <i class="rafraichir"></i>
+            </div>
+
+            <h1>TO DO LIST</h1><!--Titre au dessus-->
+            <div class="contenu"><!--début de tableau-->
+                <ul id="liste"><!--création de liste-->
+                    <li class="objet"><!--ajout de liste interactive-->
+                        <i class="add"></i><!--code add-->
+                        <p class="text">Coffee</p>
+                        <i class="delete"></i><!--code del-->
+                    </li>
+                </ul>
+                <div class="add">
+                    <i class="add"></i>
+                    <input type="text" id="input" placeholder="Ajouter du contenu"><!--Barre de texte inscritible-->
+                </div><!--fin de talbeau-->
+            </div>
+            <script>
+                /*/const dateElement = document.getElementById("date"); /*Pour mettre la date option*/
+                const list = document.getElementById("liste");
+                const input = document.getElementById("input");
+                const DONE = done ? CHECK : UNCHECK; /*ICI POUR CHECK TRUE OU NON*/
+
+                const LINE = done ? LINE_THROUG : ""; /*LA OU CAS OU QUE C'EST BIEN FAUX*/
+    /*Ici pour le controle des tâches*/document.addEventListener("keyup", function (even) {
+                    if (even.keyCode == 10) { const toDo input.value; if (toDo) addToDo(toDo); }
+
+                    input.value = "";
+                }
+             );
+    /*Partie HTML en bas du commentaire*/
+    /*const text = {<li class="objet">
+    <i class=add ${DONE}/*Check ici*/"job="complete"</i>
+                    < p class="text" > ${ toDo }</p >
+                        <i class="del" job="delete"></i>
+    </li >
+    const position = "beforeend";/*/
+    list.insertAdjacentHTML(position,text); /*A revoir pour les commentaires*/
+            </script>
+</body>
+<!--Crédit ici https://ar-todolist.netlify.app/-->

@@ -6,7 +6,7 @@ if($val ==true ){
   try {
     include('config.php');
     $test=$_SESSION['email'];
-    $sql="DELETE FROM user WHERE email='$test'";
+    $sql="DELETE FROM user WHERE mail='$test' mdp='$test'";
   
     // use exec() because no results are returned
     $conn->exec($sql);

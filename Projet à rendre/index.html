@@ -5,6 +5,7 @@
 <title>language</title>
 <link rel="icon"  type="image/X-Icon" href="rsc/IMG/language.ico"><!--Icon de l'onglet-->
 <link rel="stylesheet" type="text/css" href="CSS/Première page.css"><!--CSS unique-->
+<link rel="stylesheet" type="text/css" href="CSS/styleC.css"><!--CSS non unique-->
 </head>
     <!--affichage-->
     <body id="CT">
@@ -14,7 +15,11 @@
 <!--choix-->
     <a href="blogfr.html">Français</a>
     <a href="blogen.html">English</a>
-    <a href="https://github.com/BINDAT/SZ"><p>lien/link Github</p></a>
+    <a href="https://github.com/BINDAT/SZ"><p>Mon lien/My link Github</p></a>
     <small><a href="https://www.deepl.com/translator">@translation by DeepL</a></small>
+    <p><button onclick="window.location.href='auth.php';" id="log">Login</button>
+    <button  onclick="window.location.href='logout.php';" id="log">Logout</button>
+    <p><button id="log" onclick="window.location.href='memoryadd.html';">Create Account</button><!--Passe par une page html pour ajouter un compte-->
+    <button id="log" onclick="window.location.href='memoryless.html';">Delete Account</button></p><!--Passe par une page html pour supprimmer un compte-->
     </body>
 </html>

@@ -1,0 +1,70 @@
+/*body {
+    background-color: rgb(35, 107, 45);
+}*/
+p {
+    color: rgb(84, 97, 153);
+}
+i {
+    color: rgb(100, 250, 120);
+}
+footer {
+    color: #c73b65;
+}
+table {
+    border: 2px solid #7c1919;
+    width: 100%;
+}
+td,tr {
+    border: 2px solid #791533
+}
+ul {
+    color: aqua;
+}
+ol {
+    color: rgb(176, 221, 221);
+}
+/*.menthe {
+   background-color: #0b5c08fd
+}*/
+#center {
+    text-align: center;
+}
+#left {
+    text-align: left;
+}
+#rigth {
+    text-align: right;
+}
+#marginM {
+    margin: 20% 20% 20% 20%;
+}
+#paddingM{
+    padding: 20% 20% 20% 20%;
+}
+h1 {
+animation-name: test;
+animation-duration:9s;
+animation-iteration-count: infinite;
+}
+@keyframes test {
+    20% {
+          background-color: #000;
+          margin-left: 100px;
+      }
+  
+     40% {
+              background-color:#eb013b;
+              margin-left: 200px;
+          }
+       20% {
+              background-color:#60b45d;
+          }
+         20% {
+              background-color:#403dca;
+          } 
+  }
+
+div {
+    background-color: rgb(104, 167, 223);
+  }
+/*Ceci est commentaire*/

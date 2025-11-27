@@ -1,0 +1,18 @@
+#bga {
+    background-image:url(/IMG/menthe-feuille.jpg);
+}
+#menthe {
+    background-color:rgb(0,125,0);
+    color:rgb(0, 255, 0)
+}
+#titre {
+    color: rgb(229, 243, 29);
+    text-align: center;
+}
+#pad {
+    background-color: rgb(255,255,255);
+}
+#CT {
+    align-items: center;
+    text-align: center;
+}
